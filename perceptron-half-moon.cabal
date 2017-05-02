@@ -1,0 +1,24 @@
+name:                perceptron-half-moon
+version:             0.1.0.0
+synopsis:            Half moon classification with perceptron
+description:         Please see README.md
+homepage:            https://github.com/qsctr/perceptron-half-moon
+license:             MIT
+license-file:        LICENSE
+author:              Bretton
+maintainer:          brettonchen@gmail.com
+copyright:           2017 Bretton
+category:            Machine Learning
+build-type:          Simple
+cabal-version:       >=1.10
+extra-source-files:  README.md
+
+executable perceptron-half-moon
+  hs-source-dirs:      src
+  main-is:             Main.hs
+  other-modules:       Perceptron
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+                     , gloss
+                     , random
+  ghc-options:         -Wall -threaded

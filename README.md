@@ -1,2 +1,2 @@
 # perceptron-half-moon
-Perceptron half moon classification
+Perceptron half moon classification (AI)
